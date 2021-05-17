@@ -38,3 +38,7 @@ python3 contours.py
 ### 顔検出
 python3 cascade.py
 
+![girl](https://user-images.githubusercontent.com/22611735/118559122-762a4a00-b7a2-11eb-960b-eb7809447406.png)
+
+![gril_cascade_save](https://user-images.githubusercontent.com/22611735/118559131-79bdd100-b7a2-11eb-93aa-03d2ceb8db55.png)
+
