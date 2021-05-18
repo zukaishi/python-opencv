@@ -14,8 +14,8 @@ python3
 ### 画像表示
 python3
 >>> import cv2
->>> img_color = cv2.imread('coins.jpg')
->>> img_gray = cv2.imread('coins.jpg', cv2.IMREAD_GRAYSCALE)
+>>> img_color = cv2.imread('./image/pokemon.png')
+>>> img_gray = cv2.imread('./image/pokemon.png', cv2.IMREAD_GRAYSCALE)
 
 >>> cv2.imshow('gray', img_gray)
 >>> cv2.waitKey(0)
@@ -26,7 +26,7 @@ python3
 ### 画像コピー
 >>> import cv2
 >>> img_color = cv2.imread('coins.jpg', cv2.IMREAD_COLOR)
->>> cv2.imwrite('save.png', img_color)
+>>> cv2.imwrite('./image/pokemon_save.png', img_color)
 
 ```
 ### 輪郭描画
