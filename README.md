@@ -1,34 +1,27 @@
 # python-opencv
 
+### 準備
 ```
-準備
 pip3 install opencv-python
 pip3 install numpy
+```
 
 ### バージョン確認
+```
 python3
 >>> import cv2
 >>> cv2.__version__
 '4.5.2'
-
-### 画像表示
-python3
->>> import cv2
->>> img_color = cv2.imread('./image/pokemon.png')
->>> img_gray = cv2.imread('./image/pokemon.png', cv2.IMREAD_GRAYSCALE)
-
->>> cv2.imshow('gray', img_gray)
->>> cv2.waitKey(0)
-
->>> cv2.destroyWindow('gray') 
->>> cv2.waitKey(1)
-
-### 画像コピー
->>> import cv2
->>> img_color = cv2.imread('coins.jpg', cv2.IMREAD_COLOR)
->>> cv2.imwrite('./image/pokemon_save.png', img_color)
-
 ```
+
+### グレイにしてウィンドウ表示
+python3 window.py
+
+![pokemon](https://user-images.githubusercontent.com/22611735/118332001-5f86b780-b544-11eb-9b53-8e5a321426aa.png)
+
+<img width="762" alt="スクリーンショット 2021-05-19 6 07 33" src="https://user-images.githubusercontent.com/22611735/118723597-94f31400-b868-11eb-9858-e1fe63aff1de.png">
+
+
 ### 輪郭描画
 python3 contours.py
 
