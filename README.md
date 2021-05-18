@@ -14,8 +14,9 @@ python3
 '4.5.2'
 ```
 
-### ウィンドウ表示
+### グレイにしてウィンドウ表示
 python3 window.py
+
 ![pokemon](https://user-images.githubusercontent.com/22611735/118332001-5f86b780-b544-11eb-9b53-8e5a321426aa.png)
 
 <img width="762" alt="スクリーンショット 2021-05-19 6 07 33" src="https://user-images.githubusercontent.com/22611735/118723597-94f31400-b868-11eb-9858-e1fe63aff1de.png">
