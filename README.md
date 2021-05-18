@@ -15,7 +15,7 @@ python3
 ```
 
 ### グレイにしてウィンドウ表示
-python3 window.py
+python3 01_window.py
 
 ![pokemon](https://user-images.githubusercontent.com/22611735/118332001-5f86b780-b544-11eb-9b53-8e5a321426aa.png)
 
@@ -23,14 +23,14 @@ python3 window.py
 
 
 ### 輪郭描画
-python3 contours.py
+python3 02_contours.py
 
 ![pokemon](https://user-images.githubusercontent.com/22611735/118332001-5f86b780-b544-11eb-9b53-8e5a321426aa.png)
 
 ![pokemon_save](https://user-images.githubusercontent.com/22611735/118332007-631a3e80-b544-11eb-92fe-d9421873cc34.png)
 
 ### 顔検出
-python3 cascade.py
+python3 03_cascade.py
 
 ![girl](https://user-images.githubusercontent.com/22611735/118559122-762a4a00-b7a2-11eb-960b-eb7809447406.png)
 
