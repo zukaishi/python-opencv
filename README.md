@@ -9,6 +9,7 @@ pip3 install numpy
 python3
 >>> import cv2
 >>> cv2.__version__
+'4.5.2'
 
 ### 画像表示
 python3
