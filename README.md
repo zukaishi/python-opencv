@@ -37,5 +37,35 @@ python3 03_cascade.py
 ![gril_cascade_save](https://user-images.githubusercontent.com/22611735/118559131-79bdd100-b7a2-11eb-93aa-03d2ceb8db55.png)
 
 ### OpenFace(顔照合)
+```
 docker pull bamos/openface
 
+docker run -p 9000:9000 -p 8000:8000 -t -i bamos/openface /bin/bash
+
+cd /root/openface
+```
+```
+./demos/compare.py images/examples/{lennon*,clapton*}
+
+Comparing images/examples/lennon-1.jpg with images/examples/lennon-2.jpg.
+  + Squared l2 distance between representations: 0.763
+Comparing images/examples/lennon-1.jpg with images/examples/clapton-1.jpg.
+  + Squared l2 distance between representations: 1.132
+Comparing images/examples/lennon-1.jpg with images/examples/clapton-2.jpg.
+  + Squared l2 distance between representations: 1.145
+Comparing images/examples/lennon-2.jpg with images/examples/clapton-1.jpg.
+  + Squared l2 distance between representations: 1.447
+Comparing images/examples/lennon-2.jpg with images/examples/clapton-2.jpg.
+  + Squared l2 distance between representations: 1.521
+Comparing images/examples/clapton-1.jpg with images/examples/clapton-2.jpg.
+  + Squared l2 distance between representations: 0.318
+```
+
+```
+./demos/classifier.py infer models/openface/celeb-classifier.nn4.small2.v1.pkl ./images/examples/carell.jpg
+
+=== ./images/examples/carell.jpg ===
+/root/.local/lib/python2.7/site-packages/sklearn/preprocessing/label.py:166: DeprecationWarning: The truth value of an empty array is ambiguous. Returning False, but in future this will result in an error. Use `array.size > 0` to check that an array is not empty.
+  if diff:
+Predict SteveCarell with 0.97 confidence.
+```
